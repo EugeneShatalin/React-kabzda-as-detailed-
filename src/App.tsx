@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {Rating} from "./components/Rating/Rating";
 import {Accordion} from "./components/Accordion/Accordion";
+import OnOff from "./components/OnOff/OnOff";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <Rating value={4}/>
             <Accordion titleValue={'Menu'} collapsed={false}/>
             <Accordion titleValue={'Pages'} collapsed={true}/>
+            <OnOff />
         </div>
     );
 }
